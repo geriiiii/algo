@@ -1,9 +1,14 @@
 suma=0
-nota1=float(input("ingrese la primera nota: "));
+'''nota1=float(input("ingrese la primera nota: "));
 nota2=float(input("ingrese la segunda nota: "));
 nota3=float(input("ingrese la tercera nota: "));
 
-suma=nota1+nota2+nota3
+suma=nota1+nota2+nota3'''
+
+for i in range(3):
+  nota=float(input(f'ingrese nota {i+1} '))
+  suma+=nota
+
 prom=suma/3
 print("su promedio es: ", prom);
 if prom>=4.0 :
