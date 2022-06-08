@@ -9,3 +9,9 @@ if prom>=4.0 :
   print("felicitaciones!, está aprobado");
 else:
   print("debe estudiar más, está reprobado");
+if prom>=4.0 and prom<5.0:
+  print("Promedio regular")
+if prom>=5.0 and prom<6.0:
+  print("Promedio suficiente")
+if prom>=6.0 and prom<=7.0:
+  print("Promedio excelente")
